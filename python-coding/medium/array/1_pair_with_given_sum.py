@@ -21,11 +21,11 @@
 
 class PairWithGivenSum:
 
-    def __init__(self, arr, target: int):
+    def __init__(self, arr, target: int) -> None:
         self.arr = arr
         self.target = target
 
-    def find_pair(self):
+    def find_pair(self) -> [int]:
         arr = self.arr
         target = self.target
 
